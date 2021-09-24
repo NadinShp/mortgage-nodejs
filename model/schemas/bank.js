@@ -22,7 +22,7 @@ const bankSchema = Schema({
     minimumDownPayment: {
         type: Number,
         min: 0.01,
-        required: [true, 'field "Minimum Down Payment" is required']
+        required: [true, 'field "Minimum Down Payment is required']
         },
     loanTerm: {
         type: Number,
